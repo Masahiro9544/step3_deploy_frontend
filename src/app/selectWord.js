@@ -10,7 +10,7 @@ const selectWord = async (formData) => {
     level: select_level,
   });
 
-  const res = await fetch(`http://localhost:8000/words`, {
+  const res = await fetch(process.env.NEXT_PUBLIC_API_ENDPOINT + "/words", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: body_msg,

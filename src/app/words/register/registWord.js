@@ -18,7 +18,7 @@ const registWord = async (formData) => {
     level: creating_level,
   });
 
-  const res = await fetch(`http://localhost:8000/registword`, {
+  const res = await fetch(process.env.NEXT_PUBLIC_API_ENDPOINT + "/registword", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: body_msg,
