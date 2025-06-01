@@ -3,8 +3,18 @@ import OneWordInfoAccordion from "@/app/components/one_word_info_accordion.jsx";
 import fetchWord from "./fetchWord";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Suspense } from "react";
 
-export default function ConfirmPage() {
+// メインコンポーネントをSuspenseでラップ
+export default function ConfirmPageWrapper() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ConfirmPage />
+    </Suspense>
+  )
+}
+
+function ConfirmPage() {
   const router = useRouter();
   const id = useSearchParams().get("id");
   const [word, setWord] = useState(null);
