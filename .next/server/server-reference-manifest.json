@@ -1,0 +1,28 @@
+{
+  "node": {
+    "7fa983481dce056a53716106bd0e6ea416d563fe0b": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmasa%2FDesktop%2FTech0%2FStep3%2FStep3-1%2Fenglish-app_okapi%2Ffrontend%2Fsrc%2Fapp%2FselectWord.js%22%2C%5B%5B%227fa983481dce056a53716106bd0e6ea416d563fe0b%22%2C%22default%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "7f5b7f81289226b7eaa1ee847fbbedc7a49963d11e": {
+      "workers": {
+        "app/words/register/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmasa%2FDesktop%2FTech0%2FStep3%2FStep3-1%2Fenglish-app_okapi%2Ffrontend%2Fsrc%2Fapp%2Fwords%2Fregister%2FregistWord.js%22%2C%5B%5B%227f5b7f81289226b7eaa1ee847fbbedc7a49963d11e%22%2C%22default%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/words/register/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "CQ93XvPs49rgu7vDJ2yAhLigZ7KFJH4KTE/3LCooihs="
+}
