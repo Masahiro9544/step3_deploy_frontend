@@ -1,4 +1,5 @@
 // "use client";
+export const dynamic = 'force-dynamic'
 import WordInfoAccordion from "@/app/components/word_info_accordion.jsx";
 import Link from "next/link";
 // import { useEffect, useState } from "react";
